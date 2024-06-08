@@ -1,0 +1,6 @@
+.forgetPassword {
+  transition: color 0.4s;
+}
+.forgetPassword:hover {
+  color: #4fa74f;
+}

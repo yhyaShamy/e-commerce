@@ -1,0 +1,22 @@
+.rateStar {
+  color: #daa520;
+}
+
+.productBox {
+  transition: box-shadow 0.4s;
+}
+
+.productBox:hover {
+  box-shadow: 1px 1px 10px #4fa74f;
+}
+
+.addToCartBtn {
+  bottom: 1%;
+  transform: translateX(-50%);
+  left: -50%;
+  transition: left 0.5s;
+}
+
+.productBox:hover .addToCartBtn {
+  left: 50%;
+}
