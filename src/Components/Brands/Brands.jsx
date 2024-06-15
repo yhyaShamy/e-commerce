@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import styles from "../Products/Product.module.css";
 import axios from "axios";
@@ -6,6 +6,7 @@ import { useQuery } from "react-query";
 import LoadingPage from "../LoadingPage/LoadingPage";
 import toast from "react-hot-toast";
 import { Modal, Button } from "react-bootstrap";
+import { useDispatch } from "react-redux";
 
 export default function Brands() {
   function getAllBrands() {
